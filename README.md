@@ -3,11 +3,9 @@ This is my first attempt in using sass
 
 
 # What is SASS?
-```
 Sass (which stands for Syntactically Awesome Style Sheets) is an extension to CSS. It doesn't really change what CSS can do, you won't suddenly be able to use Adobe Photoshop blend modes or anything-but it makes writing CSS a whole lot easier.
 
 Saas includes various features such as variables, nested rules, mixins, inline imports, built-in functions to manipulate color and other values, all with a fully CSS-compatible syntax.
-```
 
 # How to use SASS and setup a new Repository:
 
@@ -45,5 +43,5 @@ Step 11: Link your css style sheet in html.
 
 ```
 This is the link to my website:
-https://github.com/MiguelKroukamp/sass.git
+https://miguelkroukamp.github.io/sass/index.html
 ```
