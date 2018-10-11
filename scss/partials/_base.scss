@@ -1,10 +1,60 @@
 body {
     background-color: $primary-color;
+    font-family: 'Magra', sans-serif;
+    text-align: justify; 
+    img {
+        width: 60em;
+        height: 50em;
+        display: block;
+        margin: auto;
+    }
     h1 {
         font-size: $font-size1;
+        color: white;
+        // font-family: 'Gothic A1', sans-serif
+        font-family: 'Bree Serif', serif;
+        text-shadow: 2px 2px 2px black;
     }
     p {
        font-size: $font-size2;
-       color: $text-color; 
+       color: white;
     }
+    header {
+        background-image: url(../img/background.jpg);
+        background-size: cover;
+        text-align: center;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        padding: 20px;
+        background-attachment: fixed;
+        height: 50vh;
+        position: relative;
+        font-family: 'Bree Serif', serif;
+        text-shadow: 2px 2px 2px black;
+        color: white;
+
+        div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%)
+        }
+        // font-family: 'Marcellus', serif;
+    img {
+            width: 50px;
+            height: 50px;
+        }
+}
+.container {
+    padding: 50px;
+    margin: 0 auto;
+    width: 85%;
+}
+footer {
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background-color: orange;
+}
 }
