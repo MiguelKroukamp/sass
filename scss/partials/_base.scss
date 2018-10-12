@@ -1,7 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: $primary-color;
-    font-family: 'Magra', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: justify; 
+    margin: 0;
     img {
         width: 60em;
         height: 50em;
@@ -27,7 +31,7 @@ body {
         background-repeat: no-repeat;
         padding: 20px;
         background-attachment: fixed;
-        height: 50vh;
+        height: 100vh;
         position: relative;
         font-family: 'Bree Serif', serif;
         text-shadow: 2px 2px 2px black;
@@ -43,18 +47,59 @@ body {
     img {
             width: 50px;
             height: 50px;
+            position: relative;
+            top: 25vh;
+            animation: move .5s infinite alternate;
         }
+        @keyframes move {
+            0% { transform: translateY(0);}
+            100% {transform: translateY(20px);}
+        } 
+    
 }
 .container {
     padding: 50px;
     margin: 0 auto;
     width: 85%;
+
+    a {
+        &:link {
+            color: orange;
+            text-decoration: none;
+        }
+        &:hover {
+            color: #6f6f6f;
+        }
+     }
+    
+}
+
+h2 {
+    text-align: center;
+    // font-family: 'Gothic A1', sans-serif
+    font-family: 'Bree Serif', serif;
+    background-color: orange;
+    font-size: $font-size1;
+}
+h3 {
+    text-align: center;
+    // font-family: 'Gothic A1', sans-serif
+    font-family: 'Bree Serif', serif;
+    background-color: orange;
+    font-size: $font-size1;
 }
 footer {
     color: black;
-    width: 100%;
     text-align: center;
     padding: 5px;
     background-color: orange;
+}
+hr {
+    background-color: #3a3a3a00;
+    height: 4px;
+    border-top: none;
+    border-bottom: 3px double #6f6f6f;
+    border-left: none;
+    border-right: none;
 }
 }
