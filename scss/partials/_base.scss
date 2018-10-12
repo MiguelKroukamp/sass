@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: $primary-color;
+    // background-color: $primary-color;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: justify; 
     margin: 0;
@@ -21,7 +21,7 @@ body {
     }
     p {
        font-size: $font-size2;
-       color: white;
+       color: grey;
     }
     header {
         background-image: url(../img/background.jpg);
@@ -61,6 +61,7 @@ body {
     padding: 50px;
     margin: 0 auto;
     width: 85%;
+
 
     a {
         &:link {

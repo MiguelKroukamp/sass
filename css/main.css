@@ -2,7 +2,6 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #5f9ea0;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   text-align: justify;
   margin: 0; }
@@ -18,7 +17,7 @@ body {
     text-shadow: 2px 2px 2px black; }
   body p {
     font-size: 2.125em;
-    color: white; }
+    color: grey; }
   body header {
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -79,79 +78,5 @@ body {
     border-bottom: 3px double #6f6f6f;
     border-left: none;
     border-right: none; }
-
-@media (max-width: 600px) {
-  html {
-    scroll-behavior: smooth; }
-
-  body {
-    background-color: #5f9ea0;
-    font-family: 'Magra', sans-serif;
-    text-align: justify;
-    margin: 0; }
-    body img {
-      width: 18em;
-      height: 16em;
-      display: block;
-      margin: auto; }
-    body h1 {
-      font-size: 30px;
-      color: white;
-      font-family: 'Bree Serif', serif;
-      text-shadow: 2px 2px 2px black; }
-    body p {
-      font-size: 20px;
-      color: white; }
-    body header {
-      background-color: black;
-      background-size: cover;
-      text-align: center;
-      background-position: 100% 100%;
-      background-repeat: no-repeat;
-      padding: 20px;
-      background-attachment: fixed;
-      height: 50vh;
-      position: relative;
-      font-family: 'Bree Serif', serif;
-      text-shadow: 2px 2px 2px black;
-      color: white; }
-      body header div {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%); }
-      body header img {
-        width: 50px;
-        height: 50px;
-        position: relative;
-        top: 5vh;
-        animation: move .5s infinite alternate; }
-  @keyframes move {
-    0% {
-      transform: translateY(0); }
-    100% {
-      transform: translateY(20px); } }
-    body hr {
-      background-color: #3a3a3a00;
-      height: 4px;
-      border-top: none;
-      border-bottom: 3px double #6f6f6f;
-      border-left: none;
-      border-right: none; }
-    body .container {
-      padding: 50px;
-      margin: 0 auto;
-      width: 85%; }
-    body h2 {
-      text-align: center;
-      font-family: 'Bree Serif', serif; }
-    body h3 {
-      text-align: center;
-      font-family: 'Bree Serif', serif; }
-    body footer {
-      color: black;
-      text-align: center;
-      padding: 5px;
-      background-color: orange; } }
 
 /*# sourceMappingURL=main.css.map */
